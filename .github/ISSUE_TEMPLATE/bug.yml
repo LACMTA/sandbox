@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+
   - type: input
     id: contact
     attributes:
@@ -15,15 +16,21 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: '<!-- AUTO-LABEL:START --> '
   - type: dropdown
     id: priority
     attributes:
-      label: <!-- AUTO-LABEL:START --> How urgent is this bug? 
+      label: How urgent is this bug? 
       options:
         - Low
         - Medium
         - High
         - Critical
+  - type: markdown
+    attributes:
+      value: '<!-- AUTO-LABEL:END --> '
   - type: textarea
     id: where
     attributes:
