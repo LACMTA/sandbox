@@ -72,4 +72,4 @@ body:
   - type: markdown
       attributes: 
       value: |
-        Thanks for taking the time to fill out this bug report! <!-- AUTO-LABEL:START -->
+        Thanks for taking the time to fill out this bug report! <!-- AUTO-LABEL:END -->
