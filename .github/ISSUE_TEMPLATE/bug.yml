@@ -68,8 +68,5 @@ body:
     id: error-message
     attributes:
       label: Error Message
-      description: Please copy and paste any relevant error messages you see.  Include a screenshot if possible.
-  - type: markdown
-      attributes: 
-      value: |
-        Thanks for taking the time to fill out this bug report! <!-- AUTO-LABEL:END -->
+      description: Please copy and paste any relevant error messages you see.  Include a screenshot if possible. <!-- AUTO-LABEL:END -->
+
