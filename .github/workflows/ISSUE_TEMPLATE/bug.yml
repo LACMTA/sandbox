@@ -1,0 +1,75 @@
+name: Bug
+description: Something that needs to be fixed.
+title: "[Bug]: "
+labels: ["Bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: <!-- AUTO-LABEL:START --> How urgent is this bug? 
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+  - type: textarea
+    id: where
+    attributes:
+      label: Please provide any relevant URLs
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: What devices are you seeing the problem on?
+      multiple: true
+      options:
+        - Desktop (Windows)
+        - Desktop (Mac)
+        - Desktop (Linux)
+        - Mobile (iOS)
+        - Mobile (Android)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Other
+  - type: textarea
+    id: error-message
+    attributes:
+      label: Error Message
+      description: Please copy and paste any relevant error messages you see.  Include a screenshot if possible.
+  - type: markdown
+      attributes: 
+      value: |
+        Thanks for taking the time to fill out this bug report! <!-- AUTO-LABEL:START -->
