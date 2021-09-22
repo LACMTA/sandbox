@@ -1,6 +1,5 @@
 name: Bug
 description: Something that needs to be fixed.
-title: ""
 labels: ["Bug", "triage"]
 body:
   - type: markdown
