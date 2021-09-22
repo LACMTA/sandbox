@@ -9,5 +9,5 @@ jobs:
       - uses: Renato66/auto-label@v2 # or v2.1.5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          labels-synonyms: '{"Priority: Critical":["Critical"],"Priority: Low":["Low"],"question":["help"]}'
+          # labels-synonyms: '{"Priority: Critical":["Critical"],"Priority: High":["High"],"Priority: Low":["Low"],"question":["help"]}'
           labels-not-allowed: '["Content","duplicate","good first issue","help wanted","invalid","jira","question","Schedules","Status: Complete","Status: Confirmed","Status: Feedback Needed","Status: In Progress","Status: On Hold","Status: Review Needed","Trip Planner","wontfix"]'
