@@ -18,7 +18,7 @@ body:
   - type: dropdown
     id: priority
     attributes:
-      label: <!-- AUTO-LABEL:START --> How urgent is this bug? 
+      label: How urgent is this bug?
       options:
         - Low
         - Medium
@@ -69,7 +69,4 @@ body:
     attributes:
       label: Error Message
       description: Please copy and paste any relevant error messages you see.  Include a screenshot if possible.
-  - type: markdown
-      attributes: 
-      value: |
-        Thanks for taking the time to fill out this bug report! <!-- AUTO-LABEL:START -->
+

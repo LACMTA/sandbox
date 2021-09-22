@@ -1,0 +1,42 @@
+name: Task
+description: A specific action that needs to be completed. Use this for regularly needed content updates.
+title: "[Task]: "
+labels: ["Task", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill this out!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: How urgent is this task?
+      multiple: true
+      options:
+        - Low
+        - Medium
+        - High
+        - Very High
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs to happen?
+      description: What is the specific task that has to be completed.
+      placeholder: Describe the task.
+      value: "ex. The new schedule for Line 33 needs to be uploaded to the website."
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Please provide any relevant URLs
+    validations:
+      required: false
