@@ -2,7 +2,7 @@
 	"name": "uwai/uwai",
 	"title": "UWAI",
 	"category": "common",
-	"icon": "welcome-learn-more",
+	"icon": "test",
 	"description": "UWAI's Block for wordpress.",
 	"textdomain": "uwai",
 	"supports": {
