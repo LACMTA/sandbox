@@ -4,7 +4,7 @@ name: Upload Python Package
 on:
   schedule:
     # Runs "at minute 35 past every hour" (see https://crontab.guru)
-    - cron: '35 * * * *'
+    - cron: '*/2 * * * *'
   # push:
   #   branches: 
   #     - main
